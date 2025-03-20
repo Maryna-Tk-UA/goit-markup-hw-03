@@ -141,7 +141,7 @@ img {
 }
 
 .button-order {
-
+  display: block;
   border-radius: 4px;
   padding: 16px 32px;
   background-color: #4d5ae5;
@@ -153,6 +153,7 @@ img {
   margin-left: auto;
   cursor: pointer;
   border: none;
+  min-width: 169px;
 }
 
 .button-order:hover,
@@ -230,8 +231,7 @@ img {
 .team-div {
   text-align: center;
   padding-top: 32px;
-  padding-right: auto;
-  padding-left: auto;
+  padding-bottom: 32px;
 }
 
 .team-name,
@@ -266,8 +266,7 @@ img {
 
 .portfolio-div {
   border: 1px solid #e7e9fc;
-  padding-top: 32px;
-  padding-left: 16px;
+  padding: 32px 16px;
   text-align: left;
   border-top: none;
 }
@@ -284,8 +283,12 @@ img {
   color: #f4f4fd;
 }
 
+.footer-logo {
+display: inline-block;
+margin-bottom: 16px;
+}
+
 .footer-text {
-  margin-top: 16px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
